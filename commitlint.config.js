@@ -27,9 +27,9 @@ export default {
         "wip",
         "workflow",
         "types",
-        "release",
-      ],
-    ],
+        "release"
+      ]
+    ]
   },
   prompt: {
     types: [
@@ -38,13 +38,13 @@ export default {
       { value: "docs", name: "📚 文档: 更新文档" },
       {
         value: "refactor",
-        name: "📦 重构: 代码重构（不新增功能也不修复 bug）",
+        name: "📦 重构: 代码重构（不新增功能也不修复 bug）"
       },
       { value: "perf", name: "🚀 性能: 提升性能" },
       { value: "test", name: "🧪 测试: 添加测试" },
       { value: "chore", name: "🔧 工具: 更改构建流程或辅助工具" },
       { value: "revert", name: "⏪ 回滚: 代码回滚" },
-      { value: "style", name: "🎨 样式: 格式调整（不影响代码运行）" },
+      { value: "style", name: "🎨 样式: 格式调整（不影响代码运行）" }
     ],
     scopes: ["root", "backend", "frontend", "components", "utils"],
     allowCustomScopes: true,
@@ -55,7 +55,7 @@ export default {
       subject: "📝 请简要描述更改:",
       body: "🔍 详细描述 (可选):",
       footer: "🔗 关联的 ISSUE 或 BREAKING CHANGE (可选):",
-      confirmCommit: "✅ 确认提交?",
-    },
-  },
+      confirmCommit: "✅ 确认提交?"
+    }
+  }
 };
